@@ -17,6 +17,6 @@ setup(
     packages=find_packages(),
 
 
-    package_data={'testapp': ['*.py']}
+    package_data={'droidterm': ['main.py']}
 
 )
