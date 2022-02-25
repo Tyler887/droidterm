@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: pip install python-for-android
-      - run: python ./setup.py apk --package "org.tyler887.droidterm" --entrypoint ./main.py
+      - run: python ./main.py apk --package "org.tyler887.droidterm"
       - uses: actions/upload-artifact@v2
         with:
           name: dt
