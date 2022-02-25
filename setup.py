@@ -16,7 +16,6 @@ setup(
 
     packages=find_packages(),
 
-    options=options,
 
     package_data={'testapp': ['*.py']}
 
